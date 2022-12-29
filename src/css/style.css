@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital@1&family=Dancing+Script:wght@500&family=Open+Sans:wght@300&family=Oswald:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#globalBlock{
+	width: 100%;
+	height: 100%;
+}
+#uploadBlock{
+	background-color: rgb(60, 88, 148);
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.uploadBlockInner{
+	background-color: rgb(84, 124, 209);
+	border-radius: 0  0 20px 20px;
+	max-width: 70%;
+	width: 70%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#uploadInput{
+	background-color: gray;
+	padding:5px ;
+	display: none;
+}
+label{
+	cursor: pointer;
+}
+#uploadIcon{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+
+}
+.uploadLabel{
+	margin: 0 auto;
+	text-align: center;
+}
+.uploadH3{
+	font-family: 'Andika', sans-serif;
+}
+.imgDiv{
+	text-align: center;	
+}
+#imgDiv img{
+	height: 300px;
+	width: 370px;
+}
+
+/* editing block
+	******		*/
+
+#editingBlock{
+	background-color: rgb(60, 88, 148);
+	border: 5px solid rgb(60, 88, 148);
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.editingBlockInner{
+	background-color: rgb(84, 124, 209);
+	border-radius: 20px 20px 0 0;
+	position: relative;
+	width: 80%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.optionIcons{
+	cursor: pointer;
+	margin: 0 auto;
+}
+.allAdjusts{
+	display: flex;
+	flex-wrap: wrap;
+}
+.adjust{
+	padding: 10px 20px;
+	margin: 0px 8px;
+	cursor: pointer;
+}
+.adjustDiv{
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+.globalOptionsDiv{
+	text-align: center;
+	margin: 0 40px;
+}
+.rotateFlipDiv{
+	text-align: center;
+	margin: 0 40px;
+}
+
+.back{
+		background-color: rgb(121, 164, 255);
+		padding: 5px;
+		cursor: pointer;
+		position: absolute;
+		bottom: 42px;
+		right: 10px;
+		width: 90px;
+		height: 40px;
+		border-radius: 5px;
+		border:none ;
+		transition: 0.3s;
+}
+.back:hover{
+	background-color: rgb(100, 138, 221);
+}
+.resetAllButton{
+	background-color: rgb(121, 164, 255);
+	padding: 5px;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	width: 90px;
+	height: 40px;
+	border-radius: 5px;
+	border:none ;
+	transition: 0.3s;
+}
+.resetAllButton:hover{
+	background-color: rgb(100, 138, 221);
+}
+.download{
+	background-color: rgb(121, 164, 255);
+	padding: 5px;
+	cursor: pointer;
+	position: absolute;
+	bottom: 170px;
+	right: 10px;
+	width: 90px;
+	height: 40px;
+	border-radius: 5px;
+	border:none ;
+	transition: 0.3s;
+}
+.download:hover{
+	background-color: rgb(100, 138, 221);
+}
+
+.resetSizeButton{
+	background-color: rgb(121, 164, 255);
+	padding: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.resetSizeButton:hover{
+	background-color: rgb(100, 138, 221);
+}
+.sizeDiv input{
+	height: 30px;
+	border-radius: 5px;
+	padding: 5px;
+	outline: none;
+	border: none;
+}
+.sizeDiv button{
+	height: 30px;
+	width: 80px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.sizeDiv button:hover{
+	background-color: rgb(100, 138, 221);
+}
+
+.adjustH3,
+.positionH3,
+.sizeH3,
+.rotateLeftH3,
+.rotateRightH3,
+.flipH3,
+.widthH3,
+.heightH3,
+.adjustTitleH3{
+	font-family: 'Kanit', sans-serif;
+}

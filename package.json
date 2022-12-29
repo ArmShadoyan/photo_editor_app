@@ -1,0 +1,17 @@
+{
+  "name": "photo-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wpack": "npx webpack",
+    "dbserv": "json-server db.json -p 8888 -w true"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
